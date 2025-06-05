@@ -9,4 +9,9 @@ This repository includes a list of assignments from self-learning Java course at
 
 ## Assignments overview
 
-## Key skills gained from the 
+## Key skills gained from the
+
+### Get started with Java
+* Java versions & development environments (JShell & IntelliJ IDEA)
+* Working with Jshell
+  * Write and modify statements
