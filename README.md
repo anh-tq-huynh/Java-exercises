@@ -23,7 +23,7 @@ __Update 09.06.2025__
   * byte
   * short
   * long
-  * int
+  * int (see [Java_variables.txt](archive/Java_variables.txt))
     * wrapper class: Integer
   * char
   * float
