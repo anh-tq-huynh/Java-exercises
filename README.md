@@ -20,11 +20,20 @@ This repository includes a list of assignments from self-learning Java course at
 __Update 09.06.2025__
 ### Data types
 * Jave's different primitive data types and wrapper classes
-  * byte
-  * short
-  * long
+  * byte (see [Java_byte_short_long.txt](archive/Java_byte_short_long.txt))
+    * range -128 to 128
+    * takes up less space but less used
+    * width: 8 bits
+  * short (see [Java_byte_short_long.txt](archive/Java_byte_short_long.txt))
+    * Short range: (-32768 to 32767)
+    * width: 16 bits
+  * long (see [Java_byte_short_long.txt](archive/Java_byte_short_long.txt))
+    * Long range: (-9223372036854775808 to 9223372036854775807)
+    * width: 64 bits
+    * When assigning to a variable, best practice is long myLongValue = 100L for values within integer range;
   * int (see [Java_variables.txt](archive/Java_variables.txt))
     * wrapper class: Integer
+    * width: 32 bits
   * char
   * float
   * double
