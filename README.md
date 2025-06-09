@@ -28,5 +28,6 @@ __Update 09.06.2025__
   * char
   * float
   * double
+  * boolean
 * Develop must be aware and mindful of data overflow and underflow
 * Numbers can be written with "_" for easy reading
