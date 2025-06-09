@@ -15,3 +15,18 @@ This repository includes a list of assignments from self-learning Java course at
 * Java versions & development environments (JShell & IntelliJ IDEA)
 * Working with Jshell
   * Write and modify statements
+
+--- 
+__Update 09.06.2025__
+### Data types
+* Jave's different primitive data types and wrapper classes
+  * byte
+  * short
+  * long
+  * int
+    * wrapper class: Integer
+  * char
+  * float
+  * double
+* Develop must be aware and mindful of data overflow and underflow
+* Numbers can be written with "_" for easy reading
