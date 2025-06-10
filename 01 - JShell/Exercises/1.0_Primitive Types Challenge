@@ -1,0 +1,56 @@
+Last login: Tue Jun 10 17:38:50 on console
+(base) anhhuynh@MacBookAir ~ % jshell
+|  Welcome to JShell -- Version 21.0.7
+|  For an introduction type: /help intro
+
+jshell> short myMinShortValue = Short.MIN_VALUE; int myMinIntValue = Integer.MIN_VALUE;
+myMinShortValue ==> -32768
+myMinIntValue ==> -2147483648
+
+jshell> byte myMinByteValue = Byte.MIN_VALUE, myMaxByteValue = Byte.MAX_VALUE
+myMinByteValue ==> -128
+myMaxByteValue ==> 127
+
+jshell> short firstShort = 1, int firstInteger = 2;
+|  Error:
+|  <identifier> expected
+|  short firstShort = 1, int firstInteger = 2;
+|                       ^
+
+jshell> short firstShort = 1; int firstInteger = 2;
+firstShort ==> 1
+firstInteger ==> 2
+byte myByteValue = 125
+myByteValue ==> 125
+
+jshell> short myShortValue = 1250;
+myShortValue ==> 1250
+
+jshell> int myIntValue = 3540;
+myIntValue ==> 3540
+
+jshell> long myLongValue = 50_000 + (10*(myByteValue + myShortValue + myIntValue));
+myLongValue ==> 99150
+
+jshell> short shortTotal = (short) (1000 + 10 * (myByteValue + myShortValue + myIntValue);
+   ...> );
+|  Error:
+|  ')' expected
+|  short shortTotal = (short) (1000 + 10 * (myByteValue + myShortValue + myIntValue);
+|                                                                                   ^
+
+jshell> short shortTotal = (short) (1000 + 10 * (myByteValue + myShortValue + myIntValue)
+   ...> );
+shortTotal ==> -15386
+
+jshell> 
+
+
+
+
+
+
+
+
+
+

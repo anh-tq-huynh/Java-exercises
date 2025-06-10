@@ -37,6 +37,24 @@ __Update 09.06.2025__
   * char
   * float
   * double
+    * default for any float or real number
   * boolean
 * Develop must be aware and mindful of data overflow and underflow
 * Numbers can be written with "_" for easy reading
+
+--- 
+__Update 10.06.2025__
+### Casting
+By default, Java treats a variable value as an integer, no matter the type of this integer. Therefore, it may result in an error when assign a new variable using previously initialised variable. For example:
+```java
+short myNewShortValue = (myMinShortValue / 2); 
+--> error
+```
+To avoid this, casting is used to specifically inform Java the type of the variable
+```java
+short myNewShortValue = (short) (myMinShortValue /2);
+```
+(see [Java_casting.txt](archive/Java_casting.txt))
+
+At this point, a few assignments were presented:
+* [1.0_Primitive Types Challenge](01%20-%20JShell/Exercises/1.0_Primitive%20Types%20Challenge)
