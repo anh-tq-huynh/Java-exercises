@@ -17,33 +17,34 @@ This repository includes a list of assignments from self-learning Java course at
   * Write and modify statements
 
 --- 
-__Update 09.06.2025__
 ### Data types
 * Jave's different primitive data types and wrapper classes
-  * byte (see [Java_byte_short_long.txt](archive/Java_byte_short_long.txt))
+  * byte (see [Java_byte_short_long.txt](../archive/Java_byte_short_long.txt))
     * range -128 to 128
     * takes up less space but less used
     * width: 8 bits
-  * short (see [Java_byte_short_long.txt](archive/Java_byte_short_long.txt))
+  * short (see [Java_byte_short_long.txt](../archive/Java_byte_short_long.txt))
     * Short range: (-32768 to 32767)
     * width: 16 bits
-  * long (see [Java_byte_short_long.txt](archive/Java_byte_short_long.txt))
+  * long (see [Java_byte_short_long.txt](../archive/Java_byte_short_long.txt))
     * Long range: (-9223372036854775808 to 9223372036854775807)
     * width: 64 bits
     * When assigning to a variable, best practice is long myLongValue = 100L for values within integer range;
-  * int (see [Java_variables.txt](archive/Java_variables.txt))
+  * int (see [Java_variables.txt](../archive/Java_variables.txt))
     * wrapper class: Integer
     * width: 32 bits
   * char
   * float
+    * Specified using F
   * double
-    * default for any float or real number
+    * check [Java_float_double.txt](Exercises/Java_float_double.txt)
+      * default for any float or real number
+      * specified using D
   * boolean
 * Develop must be aware and mindful of data overflow and underflow
 * Numbers can be written with "_" for easy reading
 
 --- 
-__Update 10.06.2025__
 ### Casting
 By default, Java treats a variable value as an integer, no matter the type of this integer. Therefore, it may result in an error when assign a new variable using previously initialised variable. For example:
 ```java
@@ -54,7 +55,9 @@ To avoid this, casting is used to specifically inform Java the type of the varia
 ```java
 short myNewShortValue = (short) (myMinShortValue /2);
 ```
-(see [Java_casting.txt](archive/Java_casting.txt))
+(see [Java_casting.txt](../archive/Java_casting.txt))
 
 At this point, a few assignments were presented:
-* [1.0_Primitive Types Challenge](01%20-%20JShell/Exercises/1.0_Primitive%20Types%20Challenge)
+* [1.0_Primitive Types Challenge](Exercises/1.0_Primitive%20Types%20Challenge)
+
+### Floating point precision
