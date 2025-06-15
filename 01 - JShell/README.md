@@ -37,6 +37,10 @@ This repository includes a list of assignments from self-learning Java course at
     * only one single character
     * encapsulated by single quotes ''
     * can be used to loop programmatically through, for example, an alphabet
+    * we can assign to the char variable by (see [03_Assign to char.txt](Exercises/03_Assign%20to%20char.txt) ):
+      * literal character
+      * unicode
+      * hash number (in HTML)
   * float
     * Specified using F
   * double
