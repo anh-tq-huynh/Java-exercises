@@ -34,6 +34,9 @@ This repository includes a list of assignments from self-learning Java course at
     * wrapper class: Integer
     * width: 32 bits
   * char
+    * only one single character
+    * encapsulated by single quotes ''
+    * can be used to loop programmatically through, for example, an alphabet
   * float
     * Specified using F
   * double
@@ -61,3 +64,6 @@ At this point, a few assignments were presented:
 * [1.0_Primitive Types Challenge](Exercises/1.0_Primitive%20Types%20Challenge)
 
 ### Floating point precision
+In Java, we must be careful when defining a variable. If a calculation is used to define a variable, the type of the numbers in the calculation determine the type of data output
+When precise calculation is involved, float and double are not the choice
+Instead, we make use of the BigDecimal class
