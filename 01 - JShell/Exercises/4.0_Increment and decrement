@@ -1,0 +1,48 @@
+Last login: Mon Jun 16 08:03:09 on console
+(base) anhhuynh@MacBookAir ~ % jshell
+|  Welcome to JShell -- Version 21.0.7
+|  For an introduction type: /help intro
+
+jshell> {
+   ...>     int result = 1;
+   ...>     result = result +1;
+   ...>     System.out.print("result = " + result);
+   ...> }
+result = 2
+jshell> {
+   ...>     int result = 1;
+   ...>     result = result ++;
+   ...>     System.out.print("result = " + result);
+   ...> }
+result = 1
+jshell> {
+   ...>     int result = 1;
+   ...>     result ++;
+   ...>     System.out.print("result = " + result);
+   ...> }
+result = 2
+jshell> {
+   ...>     int result = 1;
+   ...>     result += 1;
+   ...>     System.out.print("result = " + result);
+   ...> }
+result = 2
+jshell> {
+   ...>     int result = 1;
+   ...>     result += 5;
+   ...>     System.out.print("result = " + result);
+   ...> }
+result = 6
+jshell> {
+   ...>     int result = 10;
+   ...>     result -= 2;
+   ...>     System.out.print("result = "+ result);
+   ...> }
+result = 8
+jshell> {
+   ...>     int result = 10;
+   ...>     result -= 5.5;
+   ...>     System.out.print("result = "+ result);
+   ...> }
+result = 4
+jshell> 
