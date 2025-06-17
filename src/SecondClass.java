@@ -19,8 +19,12 @@ public class SecondClass {
         }
 
         int secondTopScore = 60;
-        if (topScore > secondTopsScore && topScore <100) {
+        if (topScore > secondTopScore && topScore < 100) {
             System.out.println("Greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.print("Either or both of the conditions are ");
         }
 
     }
