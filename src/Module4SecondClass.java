@@ -1,4 +1,4 @@
-public class SecondClass {
+public class Module4SecondClass {
 
     public static void main(String[] args) {
         //print 2 lines at the same time
