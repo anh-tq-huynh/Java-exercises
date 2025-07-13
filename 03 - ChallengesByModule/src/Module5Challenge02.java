@@ -28,7 +28,7 @@ public class Module5Challenge02 {
         System.out.println(playerName + " managed to get into position " + playerPosition + " on the high score list");
     }
     public static int calculateHighScorePosition (int playerScore) {
-        int position = 0;
+        int position;
         if (playerScore >= 1000) {
             position = 1;
         } else if (playerScore >= 500) {
