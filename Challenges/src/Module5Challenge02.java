@@ -31,9 +31,9 @@ public class Module5Challenge02 {
         int position = 0;
         if (playerScore >= 1000) {
             position = 1;
-        } else if (playerScore >= 500 && playerScore <= 1000) {
+        } else if (playerScore >= 500) {
             position = 2;
-        } else if (playerScore >= 100 && playerScore <= 500) {
+        } else if (playerScore >= 100) {
             position = 3;
         } else {
             position = 4;
