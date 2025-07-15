@@ -1,4 +1,4 @@
-public class Module5Challenge02 {
+public class Module05Challenge02 {
 
     public static void main(String[] args) {
         //Define the players and the scores

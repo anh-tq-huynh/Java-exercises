@@ -1,4 +1,4 @@
-public class Module4MiniChallenge {
+public class Module04MiniChallenge {
     public static void main(String[] args) {
         //variables
         double firstDoubleValue = 20.00D;
